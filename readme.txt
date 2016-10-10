@@ -8,8 +8,6 @@ Folder for static styled HTML files
 Install 'node', 'npm', `gulp` and `bower` globally
 
 Install 'ruby', 'sass' and 'compass' globally
-
-Install sass-globbing ['https://github.com/chriseppstein/sass-globbing']
 _________________________
 
 
