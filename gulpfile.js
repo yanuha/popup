@@ -62,9 +62,9 @@ gulp.task('clean', function(cb) {
 // Build
 gulp.task('build', ['copym', 'copyico', 'fonts'], function () {
     return gulp.src('app/*.html')
+        .pipe(useref())
         .pipe(gulpif('*.js', uglify()))
         .pipe(gulpif('*.css', cssnano()))
-        .pipe(useref())
         .pipe(gulp.dest('dist'));
 });
 

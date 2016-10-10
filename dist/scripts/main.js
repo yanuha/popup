@@ -1,0 +1,1 @@
+$(function(){$(".js-popup__icon").on("click",function(){$(".js-popup").toggleClass("popup_visible")})}),function(o){o(window).on("load",function(){o(".js-custom-scroll").mCustomScrollbar({theme:"dark-2"})})}(jQuery);
