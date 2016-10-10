@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+  position: relative;
+  min-height: 300px;
+  border-width: 55px 30px 30px;
+  border-style: solid;
+  border-color: #2b3140;
+  min-height: 100%;
+  &,
+  * {
+    box-sizing: border-box;
+  }
+}
+
+p {
+  margin: 10px 0;
+}
